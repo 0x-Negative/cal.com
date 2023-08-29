@@ -63,7 +63,6 @@ import {
   Copy,
   Download,
   ExternalLink,
-  FileText,
   Grid,
   HelpCircle,
   Link as LinkIcon,
@@ -574,12 +573,12 @@ const navigation: NavigationItemType[] = [
     href: "/more",
     icon: MoreHorizontal,
   },
-  {
-    name: "Routing Forms",
-    href: "/apps/routing-forms/forms",
-    icon: FileText,
-    isCurrent: ({ pathname }) => pathname?.startsWith("/apps/routing-forms/"),
-  },
+  // {
+  //   name: "Routing Forms",
+  //   href: "/apps/routing-forms/forms",
+  //   icon: FileText,
+  //   isCurrent: ({ pathname }) => pathname?.startsWith("/apps/routing-forms/"),
+  // },
   {
     name: "workflows",
     href: "/workflows",
